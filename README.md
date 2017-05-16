@@ -8,9 +8,6 @@ int main() {
   gets(s)
   sym = getchar();
   count = 0;
-  for(i=0; s[i]!='\0'; i++)
-  {
-    if(s[i]==sym)
        count++;
   }
   printf("символ ");
