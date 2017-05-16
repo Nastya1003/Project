@@ -5,8 +5,7 @@ int main() {
   system("chcp 1251");
   system("cls");
   printf("Введите строку: ");
-  gets(s);
-  printf("Введите символ: ");
+  gets(s)
   sym = getchar();
   count = 0;
   for(i=0; s[i]!='\0'; i++)
