@@ -17,8 +17,6 @@ int main() {
     if(s[i]==sym)
        count++;
   }
-  printf("В строке\n");
-  puts(s);      // Вывод строки
   printf("символ ");
   putchar(sym); // Вывод символа
   printf(" встречается %d раз",count);
